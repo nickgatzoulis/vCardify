@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Hello World! I am Nick :)</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/jquery.fullPage.css" rel="stylesheet">
+
+    <!-- Lato Font CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse" id="topNav">
+    <button class="navbar-toggler navbar-toggler-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">My Portfolio</a>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto text-center">
+            <li class="nav-item active">
+                <a class="nav-link" href="#homePage">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#aboutPage">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#resumePage">Resume</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolioPage">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-outline-success my-2 my-sm-0" href="#contactPage">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <nav class="col-md-2 hidden-xs-down sidebar">
+            <ul class="nav nav-pills flex-column" id="menu">
+                <li class="nav-item">
+                    <img src="img/me.jpg" class="profile-photo">
+                    <h3 id="profile-subtext">Nick Gatzoulis</h3>
+                </li>
+                <hr/>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#homePage" data-menuanchor="homePage">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutPage" data-menuanchor="aboutPage">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resumePage" data-menuanchor="resumePage">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolioPage" data-menuanchor="portfolioPage">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactPage" data-menuanchor="contactPage">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="nav nav-pills flex-column">
+                <li class="nav-item" id="social">
+                    <a href="#"><i class="fa fa-2x fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-2x fa-youtube" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item" id="copyright">
+                    <p class="copyright-text">2017 © Nick Gatzoulis</p>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="col-sm-12 col-md-10 offset-md-2" id="sectionGroup">
+            <div id="fullpage">
+                <div class="section" id="homeSection">
+                    <div id="homeHeader">
+                        <h1>Hello World!</h1>
+                        <hr>
+                        <h2>My name is <b>Nick Gatzoulis</b></h2>
+                        <h3>I am a web developer</h3>
+                    </div>
+                    <div id="homeBtn">
+                        <a href="#aboutPage" class="btn btn-lg btn-green">> Let's Explore <</a>
+                    </div>
+                </div>
+                <div class="section" id="aboutSection">
+                    <div class="container shortBio p-3">
+                        <div class="row my-card">
+                            <div class="col-md-3">
+                                <img src="img/me2.jpg" class="profile-photo" />
+                                <h4>Howdy!</h4>
+                            </div>
+                            <div class="col-md">
+                                <h2><span>I'm</span> Nick Gatzoulis</h2>
+                                <h5>Web Developer & Entrepreneur</h5>
+                                <hr>
+                                <p>I am an 18 years old university student.
+                                    <br/>I have a passion for website and mobile game development.
+                                    <br/>I love designing UI and bringing it into life as a web or mobile app.
+                                    <br/>Currently, I am working on a few beautiful projects.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <h2><span>Reach Me</span></h2>
+                                <ul class="about-list">
+                                    <li class="clearfix">
+                                        <a href="mailto:nick@edgecode.gr">
+                                            <i class="fa fa-2x fa-envelope" style="color:#283239;"></i>
+                                        </a>
+                                    </li>
+                                    <li class="clearfix">
+                                        <a href="https://github.com/EdgeCodeLTD" target="_blank">
+                                            <i class="fa fa-2x fa-github-square" style="color:#95a5a6;"></i>
+                                        </a>
+                                    </li>
+                                    <li class="clearfix">
+                                        <a href="https://www.linkedin.com/in/nikolaos-gatzoulis-60146976/" target="_blank">
+                                            <i class="fa fa-2x fa-linkedin-square" style="color:#2980b9;"></i>
+                                        </a>
+                                    </li>
+                                    <li class="clearfix">
+                                        <a href="skype:edgedesigngr">
+                                            <i class="fa fa-2x fa-skype" style="color:#3498db;"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row my-card">
+                            <div class="col-md-6 p-3" id="skillsList">
+                                <h3>Skills</h3>
+                                <div class="row">
+                                    <div class="col-sm-6 p-2">
+                                        HTML & CSS
+                                        <div class="progress">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Proficient</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 p-2">
+                                        MEAN Stack
+                                        <div class="progress">
+                                            <div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Novice</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6 p-2">
+                                        JavaScript & jQuery
+                                        <div class="progress">
+                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 p-2">
+                                        Photoshop & XD
+                                        <div class="progress">
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Advanced</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 p-3" id="educationList">
+                                <h3>Education</h3>
+                                <ul>
+                                    <li>
+                                        <strong>2nd General Upper Secondary School of Komotini</strong><br/>Achieved 18.6 / 20 in Apolytirion
+                                    </li>
+                                    <li>
+                                        <strong>University of Essex</strong> - BSc Computer Science<br/>Starting October 2017
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section" id="resumeSection">
+                    <div class="container p-5">
+                        <div class="row">
+                            <div class="timeline-header pb-4">
+                                <h2 class="text-center">Resume</h2>
+                            </div>
+
+                            <div class="card-resume text-center">
+                                <div class="resume-item">
+                                    <h3>EdgeCode LTD <br/><span>Founder & CEO</span></h3>
+                                    <p>I founded my own company in London, UK.<br/> The company's vision is to develop innovative tech projects to help make people's lives easier and more productive.</p>
+                                    <p class="duration">May 6th 2016 - present</p>
+                                </div>
+
+                                <div class="resume-item mt-4 mb-4">
+                                    <h3>Entrada Interactive <br/><span>Public Relations Manager</span></h3>
+                                    <p>I worked at Entrada Interactive, LLC as a Public Relations Manager for the game Miscreated. My job was to represent the company and the game on a global scale.</p>
+                                    <p class="duration">June 2013 - July 2014</p>
+                                </div>
+
+                                <div class="resume-item mt-4 mb-4">
+                                    <h3>MountainWheel Games GmbH <br/><span>Public Relations Manager</span></h3>
+                                    <p>I worked at MountainWheel Games GmbH as a Public Relations Manager for the game Stone Rage. My job was to represent the company and the game on a global scale.</p>
+                                    <p class="duration">December 2012 - June 2013</p>
+                                </div>
+
+                                <div class="resume-item mt-4 mb-4">
+                                    <h3>EdgeCode LTD <br/><span>Founder & CEO</span></h3>
+                                    <p>I founded my own company in London, UK.<br/> The company's vision is to develop innovative tech projects to help make people's lives easier and more productive.</p>
+                                </div>
+
+                                <div class="resume-item mt-4 mb-4">
+                                    <h3>EdgeCode LTD <br/><span>Founder & CEO</span></h3>
+                                    <p>I founded my own company in London, UK.<br/> The company's vision is to develop innovative tech projects to help make people's lives easier and more productive.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-centered">
+
+                                <article class="timeline-entry">
+
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time" datetime="2014-01-10"><span>May 6th</span> <span>2016</span></time>
+
+                                        <div class="timeline-icon bg-success">
+                                            <i class="entypo-feather"></i>
+                                        </div>
+
+                                        <div class="timeline-label">
+                                            <h2><a href="#">EdgeCode LTD</a> <span>Founder & CEO</span></h2>
+                                            <p>I founded my own company in London, UK. The company's vision is to develop innovative tech projects to help make people's lives easier and more productive.</p>
+                                        </div>
+                                    </div>
+
+                                </article>
+
+
+                                <article class="timeline-entry left-aligned">
+
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time" datetime="2014-01-10"><span>June</span> <span>2013 - Jul 2014</span></time>
+
+                                        <div class="timeline-icon bg-secondary">
+                                            <i class="entypo-suitcase"></i>
+                                        </div>
+
+                                        <div class="timeline-label">
+                                            <h2><a href="#">Entrada Interactive</a> <span>Public Relations Manager</span></h2>
+                                            <p>I worked at Entrada Interactive, LLC as a Public Relations Manager for the game Miscreated. My job was to represent the company and the game on a global scale.</p>
+                                        </div>
+                                    </div>
+
+                                </article>
+
+
+                                <article class="timeline-entry">
+
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time" datetime="2014-01-09"><span>December</span> <span>2012 - Jun 2013</span></time>
+
+                                        <div class="timeline-icon bg-info">
+                                            <i class="entypo-location"></i>
+                                        </div>
+
+                                        <div class="timeline-label">
+                                            <h2><a href="#">MountainWheel Games</a> <span>Public Relations Manager</span></h2>
+                                            <p>I worked at MountainWheel Games GmbH as a Public Relations Manager for the game Stone Rage. My job was to represent the company and the game on a global scale.</p>
+                                        </div>
+                                    </div>
+
+                                </article>
+
+
+                                <article class="timeline-entry left-aligned">
+
+                                    <div class="timeline-entry-inner">
+                                        <time class="timeline-time" datetime="2014-01-10"><span>June</span> <span>2012 - Nov 2012</span></time>
+
+                                        <div class="timeline-icon bg-warning">
+                                            <i class="entypo-camera"></i>
+                                        </div>
+
+                                        <div class="timeline-label">
+                                            <h2><a href="#">TGN.tv</a> <span>Recruiter</span></h2>
+
+                                            <p>I worked as a Recruiter for the TGN.tv YouTube Network. My job was to scout and recruit YouTube talents with gaming genre.</p>
+                                        </div>
+                                    </div>
+
+                                </article>
+
+
+                                <article class="timeline-entry begin">
+
+                                    <div class="timeline-entry-inner">
+
+                                        <div class="timeline-icon" style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
+                                            <i class="entypo-flight"></i>
+                                        </div>
+
+                                        <div class="timeline-label">
+                                            <h2><a href="#">My Cover Letter</a></h2>
+
+                                            <p>I am 18 years old web developer and entrepreneur. I can speak fluently in 3 languages (English, Greek, Russian) and I worked in key-positions at several companies since the age of 14. I also founded my own company in May, 2016.</p>
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section" id="portfolioSection">
+                    <div class="container p-5">
+                        <h2 class="text-center">Portfolio</h2>
+                        <div class="selection text-center p-3">
+                            <ul>
+                                <li class="item all active">All</li>
+                                <li class="item web-dev-toggle">Web Dev</li>
+                                <li class="item app-dev-toggle">App Dev</li>
+                                <li class="item game-dev-toggle">Game Dev</li>
+                                <li class="item ui-toggle">UI & UX</li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 item-web-dev">
+                                <div class="thumbnail">
+                                    <a href="http://placehold.it/300x300">
+                                        <img src="http://placehold.it/300x300" style="width:100%">
+                                        <div class="caption project-title">
+                                            <p>Web Dev</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 item-web-dev">
+                                <div class="thumbnail">
+                                    <a href="http://placehold.it/300x300">
+                                        <img src="http://placehold.it/300x300" alt="Nature" style="width:100%">
+                                        <div class="caption project-title">
+                                            <p>Web Dev</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 item-app-dev">
+                                <div class="thumbnail">
+                                    <a href="http://placehold.it/300x300">
+                                        <img src="http://placehold.it/300x300" alt="Nature" style="width:100%">
+                                        <div class="caption project-title">
+                                            <p>App Dev</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 item-game-dev">
+                                <div class="thumbnail">
+                                    <a href="http://placehold.it/300x300">
+                                        <img src="http://placehold.it/300x300" alt="Nature" style="width:100%">
+                                        <div class="caption project-title">
+                                            <p>Game Dev</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 item-app-dev">
+                                <div class="thumbnail">
+                                    <a href="http://placehold.it/300x300">
+                                        <img src="http://placehold.it/300x300" alt="Nature" style="width:100%">
+                                        <div class="caption project-title">
+                                            <p>App Dev</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 item-web-dev">
+                                <div class="thumbnail">
+                                    <a href="http://placehold.it/300x300">
+                                        <img src="http://placehold.it/300x300" alt="Nature" style="width:100%">
+                                        <div class="caption project-title">
+                                            <p>Web Dev</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 item-ui">
+                                <div class="thumbnail">
+                                    <a href="http://placehold.it/300x300">
+                                        <img src="http://placehold.it/300x300" alt="Nature" style="width:100%">
+                                        <div class="caption project-title">
+                                            <p>UI & UX</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 item-ui">
+                                <div class="thumbnail">
+                                    <a href="http://placehold.it/300x300">
+                                        <img src="http://placehold.it/300x300" alt="Nature" style="width:100%">
+                                        <div class="caption project-title">
+                                            <p>UI & UX</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section" id="contactSection">
+                    <div class="container p-3">
+                        <h2 class="pb-2">Contact Me</h2>
+                        <div class="row">
+                            <div class="col-sm-5 my-card p-4">
+                                <h4>Send me an inquiry!</h4>
+                                <hr>
+                                <form role="form" id="contactForm" method="post" action="send.php">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="4" required></textarea>
+                                        <p id="characterLeft" class="help-block ">You have reached the limit</p>
+                                    </div>
+                                    <button type="submit" id="submit" name="submit" class="btn pull-left">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+<!-- All necessary JavaScript files -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- Fullpage.js -->
+<script src="js/jquery.fullPage.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            //Navigation
+            menu: '#menu',
+            lockAnchors: false,
+            anchors:['homePage', 'aboutPage', 'resumePage', 'portfolioPage', 'contactPage'],
+            autoScrolling: false,
+            fitToSection: false
+        });
+
+        $('#characterLeft').text('140 characters left');
+        $('#message').keydown(function() {
+            var max = 140;
+            var len = $(this).val().length;
+            if (len >= max) {
+                $('#characterLeft').text('You have reached the limit').addClass('red');
+                $('#submit').addClass('disabled');
+            }
+            else {
+                var ch = max - len;
+                $('#characterLeft').text(ch + ' characters left').removeClass('red');
+                $('#submit').removeClass('disabled');
+            }
+        });
+
+        $(".all").click(function() {
+            $(".selection ul li").removeClass("active");
+            $(this).addClass("active");
+            $(".item-web-dev, .item-app-dev, .item-game-dev, .item-ui").show();
+        });
+
+        $(".web-dev-toggle").click(function() {
+            $(".selection ul li").removeClass("active");
+            $(this).addClass("active");
+            $(".item-web-dev").show();
+            $(".item-app-dev, .item-game-dev, .item-ui").hide();
+        });
+
+        $(".app-dev-toggle").click(function() {
+            $(".selection ul li").removeClass("active");
+            $(this).addClass('active');
+            $(".item-app-dev").show();
+            $(".item-web-dev, .item-game-dev, .item-ui").hide();
+        });
+
+        $(".game-dev-toggle").click(function() {
+            $(".selection ul li").removeClass("active");
+            $(this).addClass('active');
+            $(".item-game-dev").show();
+            $(".item-web-dev, .item-app-dev, .item-ui").hide();
+        });
+
+        $(".ui-toggle").click(function() {
+            $(".selection ul li").removeClass("active");
+            $(this).addClass('active');
+            $(".item-ui").show();
+            $(".item-web-dev, .item-game-dev, .item-app-dev").hide();
+        });
+
+    });
+</script>
+</body>
+</html>
